@@ -1,0 +1,186 @@
+[
+    {
+        "merged": "com.bhagyashriP.cure.app-merged_res-42:/layout_activity_start.xml.flat",
+        "source": "com.bhagyashriP.cure.app-main-44:/layout/activity_start.xml"
+    },
+    {
+        "merged": "com.bhagyashriP.cure.app-merged_res-42:/drawable_splash_btn.xml.flat",
+        "source": "com.bhagyashriP.cure.app-main-44:/drawable/splash_btn.xml"
+    },
+    {
+        "merged": "com.bhagyashriP.cure.app-merged_res-42:/xml_data_extraction_rules.xml.flat",
+        "source": "com.bhagyashriP.cure.app-main-44:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.bhagyashriP.cure.app-merged_res-42:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.bhagyashriP.cure.app-main-44:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.bhagyashriP.cure.app-merged_res-42:/layout_activity_home.xml.flat",
+        "source": "com.bhagyashriP.cure.app-main-44:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.bhagyashriP.cure.app-merged_res-42:/font_poppins_semibold.ttf.flat",
+        "source": "com.bhagyashriP.cure.app-main-44:/font/poppins_semibold.ttf"
+    },
+    {
+        "merged": "com.bhagyashriP.cure.app-merged_res-42:/font_poppins_light.ttf.flat",
+        "source": "com.bhagyashriP.cure.app-main-44:/font/poppins_light.ttf"
+    },
+    {
+        "merged": "com.bhagyashriP.cure.app-merged_res-42:/drawable_button_style.xml.flat",
+        "source": "com.bhagyashriP.cure.app-main-44:/drawable/button_style.xml"
+    },
+    {
+        "merged": "com.bhagyashriP.cure.app-merged_res-42:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.bhagyashriP.cure.app-main-44:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.bhagyashriP.cure.app-merged_res-42:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.bhagyashriP.cure.app-main-44:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.bhagyashriP.cure.app-merged_res-42:/drawable_schedule.xml.flat",
+        "source": "com.bhagyashriP.cure.app-main-44:/drawable/schedule.xml"
+    },
+    {
+        "merged": "com.bhagyashriP.cure.app-merged_res-42:/layout_activity_community_feed.xml.flat",
+        "source": "com.bhagyashriP.cure.app-main-44:/layout/activity_community_feed.xml"
+    },
+    {
+        "merged": "com.bhagyashriP.cure.app-merged_res-42:/drawable_bottom_nav_bg.xml.flat",
+        "source": "com.bhagyashriP.cure.app-main-44:/drawable/bottom_nav_bg.xml"
+    },
+    {
+        "merged": "com.bhagyashriP.cure.app-merged_res-42:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.bhagyashriP.cure.app-main-44:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.bhagyashriP.cure.app-merged_res-42:/layout_activity_main.xml.flat",
+        "source": "com.bhagyashriP.cure.app-main-44:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.bhagyashriP.cure.app-merged_res-42:/layout_activity_onboarding_screen1.xml.flat",
+        "source": "com.bhagyashriP.cure.app-main-44:/layout/activity_onboarding_screen1.xml"
+    },
+    {
+        "merged": "com.bhagyashriP.cure.app-merged_res-42:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.bhagyashriP.cure.app-main-44:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.bhagyashriP.cure.app-merged_res-42:/drawable-v24_bg_img.xml.flat",
+        "source": "com.bhagyashriP.cure.app-main-44:/drawable-v24/bg_img.xml"
+    },
+    {
+        "merged": "com.bhagyashriP.cure.app-merged_res-42:/font_poppins.ttf.flat",
+        "source": "com.bhagyashriP.cure.app-main-44:/font/poppins.ttf"
+    },
+    {
+        "merged": "com.bhagyashriP.cure.app-merged_res-42:/drawable_chat.xml.flat",
+        "source": "com.bhagyashriP.cure.app-main-44:/drawable/chat.xml"
+    },
+    {
+        "merged": "com.bhagyashriP.cure.app-merged_res-42:/layout_fragment_chat.xml.flat",
+        "source": "com.bhagyashriP.cure.app-main-44:/layout/fragment_chat.xml"
+    },
+    {
+        "merged": "com.bhagyashriP.cure.app-merged_res-42:/font_poppins_extrabold.ttf.flat",
+        "source": "com.bhagyashriP.cure.app-main-44:/font/poppins_extrabold.ttf"
+    },
+    {
+        "merged": "com.bhagyashriP.cure.app-merged_res-42:/layout_fragment_schedule.xml.flat",
+        "source": "com.bhagyashriP.cure.app-main-44:/layout/fragment_schedule.xml"
+    },
+    {
+        "merged": "com.bhagyashriP.cure.app-merged_res-42:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.bhagyashriP.cure.app-main-44:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.bhagyashriP.cure.app-merged_res-42:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.bhagyashriP.cure.app-main-44:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.bhagyashriP.cure.app-merged_res-42:/drawable-v24_shopping_cart.xml.flat",
+        "source": "com.bhagyashriP.cure.app-main-44:/drawable-v24/shopping_cart.xml"
+    },
+    {
+        "merged": "com.bhagyashriP.cure.app-merged_res-42:/layout_fragment_profile.xml.flat",
+        "source": "com.bhagyashriP.cure.app-main-44:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.bhagyashriP.cure.app-merged_res-42:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.bhagyashriP.cure.app-main-44:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.bhagyashriP.cure.app-merged_res-42:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.bhagyashriP.cure.app-main-44:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.bhagyashriP.cure.app-merged_res-42:/drawable-v24_btn_bg.xml.flat",
+        "source": "com.bhagyashriP.cure.app-main-44:/drawable-v24/btn_bg.xml"
+    },
+    {
+        "merged": "com.bhagyashriP.cure.app-merged_res-42:/layout_activity_login.xml.flat",
+        "source": "com.bhagyashriP.cure.app-main-44:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.bhagyashriP.cure.app-merged_res-42:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.bhagyashriP.cure.app-main-44:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.bhagyashriP.cure.app-merged_res-42:/menu_menu.xml.flat",
+        "source": "com.bhagyashriP.cure.app-main-44:/menu/menu.xml"
+    },
+    {
+        "merged": "com.bhagyashriP.cure.app-merged_res-42:/layout_activity_signup.xml.flat",
+        "source": "com.bhagyashriP.cure.app-main-44:/layout/activity_signup.xml"
+    },
+    {
+        "merged": "com.bhagyashriP.cure.app-merged_res-42:/xml_backup_rules.xml.flat",
+        "source": "com.bhagyashriP.cure.app-main-44:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.bhagyashriP.cure.app-merged_res-42:/drawable_home_menu.xml.flat",
+        "source": "com.bhagyashriP.cure.app-main-44:/drawable/home_menu.xml"
+    },
+    {
+        "merged": "com.bhagyashriP.cure.app-merged_res-42:/drawable_account.xml.flat",
+        "source": "com.bhagyashriP.cure.app-main-44:/drawable/account.xml"
+    },
+    {
+        "merged": "com.bhagyashriP.cure.app-merged_res-42:/drawable_logo.jpg.flat",
+        "source": "com.bhagyashriP.cure.app-main-44:/drawable/logo.jpg"
+    },
+    {
+        "merged": "com.bhagyashriP.cure.app-merged_res-42:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.bhagyashriP.cure.app-main-44:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.bhagyashriP.cure.app-merged_res-42:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.bhagyashriP.cure.app-main-44:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.bhagyashriP.cure.app-merged_res-42:/drawable-v24_edittext_style.xml.flat",
+        "source": "com.bhagyashriP.cure.app-main-44:/drawable-v24/edittext_style.xml"
+    },
+    {
+        "merged": "com.bhagyashriP.cure.app-merged_res-42:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.bhagyashriP.cure.app-main-44:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.bhagyashriP.cure.app-merged_res-42:/drawable_home.xml.flat",
+        "source": "com.bhagyashriP.cure.app-main-44:/drawable/home.xml"
+    },
+    {
+        "merged": "com.bhagyashriP.cure.app-merged_res-42:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.bhagyashriP.cure.app-main-44:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.bhagyashriP.cure.app-merged_res-42:/font_poppins_bold.ttf.flat",
+        "source": "com.bhagyashriP.cure.app-main-44:/font/poppins_bold.ttf"
+    },
+    {
+        "merged": "com.bhagyashriP.cure.app-merged_res-42:/layout_fragment_home.xml.flat",
+        "source": "com.bhagyashriP.cure.app-main-44:/layout/fragment_home.xml"
+    }
+]

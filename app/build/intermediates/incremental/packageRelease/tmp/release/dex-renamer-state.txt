@@ -1,0 +1,4 @@
+#Sat Dec 24 11:14:15 IST 2022
+base.0=D\:\\AndroidStudioProjects\\Cure_App\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

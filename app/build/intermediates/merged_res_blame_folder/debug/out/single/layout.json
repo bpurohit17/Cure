@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "com.bhagyashriP.cure.app-mergeDebugResources-41:/layout/activity_onboarding_screen1.xml",
+        "source": "com.bhagyashriP.cure.app-main-44:/layout/activity_onboarding_screen1.xml"
+    },
+    {
+        "merged": "com.bhagyashriP.cure.app-mergeDebugResources-41:/layout/activity_start.xml",
+        "source": "com.bhagyashriP.cure.app-main-44:/layout/activity_start.xml"
+    },
+    {
+        "merged": "com.bhagyashriP.cure.app-mergeDebugResources-41:/layout/activity_login.xml",
+        "source": "com.bhagyashriP.cure.app-main-44:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.bhagyashriP.cure.app-mergeDebugResources-41:/layout/fragment_profile.xml",
+        "source": "com.bhagyashriP.cure.app-main-44:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "com.bhagyashriP.cure.app-mergeDebugResources-41:/layout/activity_signup.xml",
+        "source": "com.bhagyashriP.cure.app-main-44:/layout/activity_signup.xml"
+    },
+    {
+        "merged": "com.bhagyashriP.cure.app-mergeDebugResources-41:/layout/fragment_chat.xml",
+        "source": "com.bhagyashriP.cure.app-main-44:/layout/fragment_chat.xml"
+    },
+    {
+        "merged": "com.bhagyashriP.cure.app-mergeDebugResources-41:/layout/fragment_home.xml",
+        "source": "com.bhagyashriP.cure.app-main-44:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.bhagyashriP.cure.app-mergeDebugResources-41:/layout/activity_home.xml",
+        "source": "com.bhagyashriP.cure.app-main-44:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.bhagyashriP.cure.app-mergeDebugResources-41:/layout/fragment_schedule.xml",
+        "source": "com.bhagyashriP.cure.app-main-44:/layout/fragment_schedule.xml"
+    },
+    {
+        "merged": "com.bhagyashriP.cure.app-mergeDebugResources-41:/layout/activity_main.xml",
+        "source": "com.bhagyashriP.cure.app-main-44:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.bhagyashriP.cure.app-mergeDebugResources-41:/layout/activity_community_feed.xml",
+        "source": "com.bhagyashriP.cure.app-main-44:/layout/activity_community_feed.xml"
+    }
+]

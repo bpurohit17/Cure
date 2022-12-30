@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 7.3.1" type="conditional_incidents">
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 31">
+        <fix-replace
+            description="Delete tools:targetApi"
+            replacement="">
+            <range
+                file="${:app*debug*sourceProvider*0*manifest*0}"
+                startOffset="568"
+                endOffset="588"/>
+        </fix-replace>
+        <location
+            file="${:app*debug*sourceProvider*0*manifest*0}"
+            line="14"
+            column="9"
+            startOffset="568"
+            endLine="14"
+            endColumn="29"
+            endOffset="588"/>
+        <map>
+            <condition minGE="31"/>
+        </map>
+    </incident>
+
+    <incident
+        id="CustomSplashScreen"
+        severity="warning"
+        message="The application should not provide its own launch screen">
+        <location
+            file="${:app*debug*sourceProvider*0*javaDir*0}/com/bhagyashriP/cure/activity/SplashScreenActivity.java"
+            line="9"
+            column="14"
+            startOffset="162"
+            endLine="9"
+            endColumn="34"
+            endOffset="182"/>
+        <map>
+            <condition targetGE="31"/>
+        </map>
+    </incident>
+
+</incidents>

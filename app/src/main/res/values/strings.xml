@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Cure</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="splash_title">Know yourself\nLearn yourself</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="show_btn">Show</string>
+    <string name="signup_account_string">Don’t have an account?</string>
+    <string name="signin_accoubt_string">Already have an account?</string>
+    <string name="signup_string">Signup</string>
+    <string name="login_string">Login</string>
+    <string name="full_name">Full Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="sign_up">Sign up</string>
+    <string name="user_name">Username</string>
+    <string name="home">home</string>
+    <string name="schedule">Schedule</string>
+    <string name="chat">Chat</string>
+    <string name="profile">Profile</string>
+</resources>

@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "com.bhagyashriP.cure.app-mergeReleaseResources-28:/layout/activity_splash_screen.xml",
+        "source": "com.bhagyashriP.cure.app-main-30:/layout/activity_splash_screen.xml"
+    },
+    {
+        "merged": "com.bhagyashriP.cure.app-mergeReleaseResources-28:/layout/activity_main.xml",
+        "source": "com.bhagyashriP.cure.app-main-30:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.bhagyashriP.cure.app-mergeReleaseResources-28:/layout/activity_home.xml",
+        "source": "com.bhagyashriP.cure.app-main-30:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.bhagyashriP.cure.app-mergeReleaseResources-28:/layout/fragment_home.xml",
+        "source": "com.bhagyashriP.cure.app-main-30:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.bhagyashriP.cure.app-mergeReleaseResources-28:/layout/activity_login.xml",
+        "source": "com.bhagyashriP.cure.app-main-30:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.bhagyashriP.cure.app-mergeReleaseResources-28:/layout/fragment_shoping.xml",
+        "source": "com.bhagyashriP.cure.app-main-30:/layout/fragment_shoping.xml"
+    }
+]

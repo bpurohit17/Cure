@@ -1,0 +1,121 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.bhagyashriP.cure"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="25"
+8-->D:\AndroidStudioProjects\Cure_App\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->D:\AndroidStudioProjects\Cure_App\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->D:\AndroidStudioProjects\Cure_App\app\src\main\AndroidManifest.xml:5:5-49:19
+12        android:allowBackup="true"
+12-->D:\AndroidStudioProjects\Cure_App\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.8.0] C:\Users\Lenovo\.gradle\caches\transforms-3\102215101d21fdb02f0f27bbfd4ebd5d\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+14        android:dataExtractionRules="@xml/data_extraction_rules"
+14-->D:\AndroidStudioProjects\Cure_App\app\src\main\AndroidManifest.xml:7:9-65
+15        android:extractNativeLibs="false"
+16        android:fullBackupContent="@xml/backup_rules"
+16-->D:\AndroidStudioProjects\Cure_App\app\src\main\AndroidManifest.xml:8:9-54
+17        android:icon="@mipmap/ic_launcher"
+17-->D:\AndroidStudioProjects\Cure_App\app\src\main\AndroidManifest.xml:9:9-43
+18        android:label="@string/app_name"
+18-->D:\AndroidStudioProjects\Cure_App\app\src\main\AndroidManifest.xml:10:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->D:\AndroidStudioProjects\Cure_App\app\src\main\AndroidManifest.xml:11:9-54
+20        android:supportsRtl="true"
+20-->D:\AndroidStudioProjects\Cure_App\app\src\main\AndroidManifest.xml:12:9-35
+21        android:theme="@style/Theme.Cure" >
+21-->D:\AndroidStudioProjects\Cure_App\app\src\main\AndroidManifest.xml:13:9-42
+22        <activity
+22-->D:\AndroidStudioProjects\Cure_App\app\src\main\AndroidManifest.xml:15:9-21:20
+23            android:name="com.bhagyashriP.cure.SplashScreenActivity"
+23-->D:\AndroidStudioProjects\Cure_App\app\src\main\AndroidManifest.xml:16:13-49
+24            android:exported="false" >
+24-->D:\AndroidStudioProjects\Cure_App\app\src\main\AndroidManifest.xml:17:13-37
+25            <meta-data
+25-->D:\AndroidStudioProjects\Cure_App\app\src\main\AndroidManifest.xml:18:13-20:36
+26                android:name="android.app.lib_name"
+26-->D:\AndroidStudioProjects\Cure_App\app\src\main\AndroidManifest.xml:19:17-52
+27                android:value="" />
+27-->D:\AndroidStudioProjects\Cure_App\app\src\main\AndroidManifest.xml:20:17-33
+28        </activity>
+29        <activity
+29-->D:\AndroidStudioProjects\Cure_App\app\src\main\AndroidManifest.xml:22:9-28:20
+30            android:name="com.bhagyashriP.cure.HomeActivity"
+30-->D:\AndroidStudioProjects\Cure_App\app\src\main\AndroidManifest.xml:23:13-41
+31            android:exported="false" >
+31-->D:\AndroidStudioProjects\Cure_App\app\src\main\AndroidManifest.xml:24:13-37
+32            <meta-data
+32-->D:\AndroidStudioProjects\Cure_App\app\src\main\AndroidManifest.xml:18:13-20:36
+33                android:name="android.app.lib_name"
+33-->D:\AndroidStudioProjects\Cure_App\app\src\main\AndroidManifest.xml:19:17-52
+34                android:value="" />
+34-->D:\AndroidStudioProjects\Cure_App\app\src\main\AndroidManifest.xml:20:17-33
+35        </activity>
+36        <activity
+36-->D:\AndroidStudioProjects\Cure_App\app\src\main\AndroidManifest.xml:29:9-35:20
+37            android:name="com.bhagyashriP.cure.LoginActivity"
+37-->D:\AndroidStudioProjects\Cure_App\app\src\main\AndroidManifest.xml:30:13-42
+38            android:exported="false" >
+38-->D:\AndroidStudioProjects\Cure_App\app\src\main\AndroidManifest.xml:31:13-37
+39            <meta-data
+39-->D:\AndroidStudioProjects\Cure_App\app\src\main\AndroidManifest.xml:18:13-20:36
+40                android:name="android.app.lib_name"
+40-->D:\AndroidStudioProjects\Cure_App\app\src\main\AndroidManifest.xml:19:17-52
+41                android:value="" />
+41-->D:\AndroidStudioProjects\Cure_App\app\src\main\AndroidManifest.xml:20:17-33
+42        </activity>
+43        <activity
+43-->D:\AndroidStudioProjects\Cure_App\app\src\main\AndroidManifest.xml:36:9-48:20
+44            android:name="com.bhagyashriP.cure.activity.MainActivity"
+44-->D:\AndroidStudioProjects\Cure_App\app\src\main\AndroidManifest.xml:37:13-50
+45            android:exported="true" >
+45-->D:\AndroidStudioProjects\Cure_App\app\src\main\AndroidManifest.xml:38:13-36
+46            <intent-filter>
+46-->D:\AndroidStudioProjects\Cure_App\app\src\main\AndroidManifest.xml:39:13-43:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->D:\AndroidStudioProjects\Cure_App\app\src\main\AndroidManifest.xml:40:17-69
+47-->D:\AndroidStudioProjects\Cure_App\app\src\main\AndroidManifest.xml:40:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->D:\AndroidStudioProjects\Cure_App\app\src\main\AndroidManifest.xml:42:17-77
+49-->D:\AndroidStudioProjects\Cure_App\app\src\main\AndroidManifest.xml:42:27-74
+50            </intent-filter>
+51
+52            <meta-data
+52-->D:\AndroidStudioProjects\Cure_App\app\src\main\AndroidManifest.xml:18:13-20:36
+53                android:name="android.app.lib_name"
+53-->D:\AndroidStudioProjects\Cure_App\app\src\main\AndroidManifest.xml:19:17-52
+54                android:value="" />
+54-->D:\AndroidStudioProjects\Cure_App\app\src\main\AndroidManifest.xml:20:17-33
+55        </activity>
+56
+57        <provider
+57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-3\2ed499a9972c76584289d61187c198e3\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+58            android:name="androidx.startup.InitializationProvider"
+58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-3\2ed499a9972c76584289d61187c198e3\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+59            android:authorities="com.bhagyashriP.cure.androidx-startup"
+59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-3\2ed499a9972c76584289d61187c198e3\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+60            android:exported="false" >
+60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-3\2ed499a9972c76584289d61187c198e3\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+61            <meta-data
+61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-3\2ed499a9972c76584289d61187c198e3\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+62                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-3\2ed499a9972c76584289d61187c198e3\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+63                android:value="androidx.startup" />
+63-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Lenovo\.gradle\caches\transforms-3\2ed499a9972c76584289d61187c198e3\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+64            <meta-data
+64-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Lenovo\.gradle\caches\transforms-3\4f04b5d013d4e9a91b26580011dee398\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+65                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+65-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Lenovo\.gradle\caches\transforms-3\4f04b5d013d4e9a91b26580011dee398\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+66                android:value="androidx.startup" />
+66-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Lenovo\.gradle\caches\transforms-3\4f04b5d013d4e9a91b26580011dee398\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+67        </provider>
+68    </application>
+69
+70</manifest>

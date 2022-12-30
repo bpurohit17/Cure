@@ -1,0 +1,9 @@
+com.bhagyashriP.cure.test.app-core-1.5.0-0 C:\Users\Lenovo\.gradle\caches\transforms-3\eae2ffc2ce0834c2a74c1d976cdf742c\transformed\core-1.5.0\res
+com.bhagyashriP.cure.test.app-annotation-experimental-1.1.0-1 C:\Users\Lenovo\.gradle\caches\transforms-3\ebc5cdc968831466331bfc76f957101c\transformed\annotation-experimental-1.1.0\res
+com.bhagyashriP.cure.test.app-androidTest-2 D:\AndroidStudioProjects\Cure_App\app\build\generated\res\resValues\androidTest\debug
+com.bhagyashriP.cure.test.app-androidTest-3 D:\AndroidStudioProjects\Cure_App\app\build\generated\res\rs\androidTest\debug
+com.bhagyashriP.cure.test.app-mergeDebugAndroidTestResources-4 D:\AndroidStudioProjects\Cure_App\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.bhagyashriP.cure.test.app-mergeDebugAndroidTestResources-5 D:\AndroidStudioProjects\Cure_App\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.bhagyashriP.cure.test.app-merged_res-6 D:\AndroidStudioProjects\Cure_App\app\build\intermediates\merged_res\debugAndroidTest
+com.bhagyashriP.cure.test.app-androidTest-7 D:\AndroidStudioProjects\Cure_App\app\src\androidTest\res
+com.bhagyashriP.cure.test.app-androidTestDebug-8 D:\AndroidStudioProjects\Cure_App\app\src\androidTestDebug\res

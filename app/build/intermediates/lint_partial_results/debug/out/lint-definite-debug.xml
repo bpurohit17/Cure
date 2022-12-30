@@ -1,0 +1,1197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 7.3.1" type="incidents">
+
+    <incident
+        id="MissingClass"
+        severity="error"
+        message="Class referenced in the manifest, `com.bhagyashriP.cure.SplashScreenActivity`, was not found in the project or the libraries">
+        <location
+            file="${:app*debug*sourceProvider*0*manifest*0}"
+            line="16"
+            column="27"
+            startOffset="636"
+            endLine="16"
+            endColumn="48"
+            endOffset="657"/>
+    </incident>
+
+    <incident
+        id="MissingClass"
+        severity="error"
+        message="Class referenced in the manifest, `com.bhagyashriP.cure.HomeActivity`, was not found in the project or the libraries">
+        <location
+            file="${:app*debug*sourceProvider*0*manifest*0}"
+            line="23"
+            column="27"
+            startOffset="879"
+            endLine="23"
+            endColumn="40"
+            endOffset="892"/>
+    </incident>
+
+    <incident
+        id="MissingClass"
+        severity="error"
+        message="Class referenced in the manifest, `com.bhagyashriP.cure.LoginActivity`, was not found in the project or the libraries">
+        <location
+            file="${:app*debug*sourceProvider*0*manifest*0}"
+            line="30"
+            column="27"
+            startOffset="1114"
+            endLine="30"
+            endColumn="41"
+            endOffset="1128"/>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="This folder configuration (`v24`) is unnecessary; `minSdkVersion` is 25. Merge all the resources in this folder into `drawable`.">
+        <fix-data file="${:app*debug*sourceProvider*0*resDir*0}/drawable-v24" folderName="drawable" requiresApi="25"/>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/drawable-v24"/>
+    </incident>
+
+    <incident
+        id="VectorRaster"
+        severity="warning"
+        message="Limit vector icons sizes to 200×200 to keep icon drawing fast; see https://developer.android.com/studio/write/vector-asset-studio#when for more">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/drawable-v24/bg_img.xml"
+            line="2"
+            column="20"
+            startOffset="87"
+            endLine="2"
+            endColumn="25"
+            endOffset="92"/>
+    </incident>
+
+    <incident
+        id="VectorPath"
+        severity="warning"
+        message="Very long vector path (913 characters), which is bad for performance. Considering reducing precision, removing minor details or rasterizing vector.">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/drawable-v24/bg_img.xml"
+            line="22"
+            column="25"
+            startOffset="2188"
+            endLine="22"
+            endColumn="938"
+            endOffset="3101"/>
+    </incident>
+
+    <incident
+        id="VectorPath"
+        severity="warning"
+        message="Very long vector path (1346 characters), which is bad for performance. Considering reducing precision, removing minor details or rasterizing vector.">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/drawable-v24/bg_img.xml"
+            line="76"
+            column="25"
+            startOffset="7571"
+            endLine="76"
+            endColumn="1371"
+            endOffset="8917"/>
+    </incident>
+
+    <incident
+        id="VectorPath"
+        severity="warning"
+        message="Very long vector path (832 characters), which is bad for performance. Considering reducing precision, removing minor details or rasterizing vector.">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/drawable-v24/bg_img.xml"
+            line="82"
+            column="25"
+            startOffset="9160"
+            endLine="82"
+            endColumn="857"
+            endOffset="9992"/>
+    </incident>
+
+    <incident
+        id="VectorRaster"
+        severity="warning"
+        message="Limit vector icons sizes to 200×200 to keep icon drawing fast; see https://developer.android.com/studio/write/vector-asset-studio#when for more">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/drawable-v24/home.xml"
+            line="2"
+            column="20"
+            startOffset="87"
+            endLine="2"
+            endColumn="25"
+            endOffset="92"/>
+    </incident>
+
+    <incident
+        id="VectorRaster"
+        severity="warning"
+        message="Limit vector icons sizes to 200×200 to keep icon drawing fast; see https://developer.android.com/studio/write/vector-asset-studio#when for more">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/drawable-v24/shopping_cart.xml"
+            line="2"
+            column="20"
+            startOffset="87"
+            endLine="2"
+            endColumn="25"
+            endOffset="92"/>
+    </incident>
+
+    <incident
+        id="UselessParent"
+        severity="warning"
+        message="This `LinearLayout` layout or its `RelativeLayout` parent is unnecessary">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_login.xml"
+            line="9"
+            column="6"
+            startOffset="353"
+            endLine="9"
+            endColumn="18"
+            endOffset="365"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Sign In&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_login.xml"
+            line="20"
+            column="13"
+            startOffset="770"
+            endLine="20"
+            endColumn="35"
+            endOffset="792"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                dot="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_login.xml"
+            line="24"
+            column="10"
+            startOffset="887"
+            endLine="24"
+            endColumn="18"
+            endOffset="895"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Email&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_login.xml"
+            line="31"
+            column="13"
+            startOffset="1197"
+            endLine="31"
+            endColumn="33"
+            endOffset="1217"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                dot="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_login.xml"
+            line="44"
+            column="14"
+            startOffset="1646"
+            endLine="44"
+            endColumn="22"
+            endOffset="1654"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Password&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_login.xml"
+            line="49"
+            column="17"
+            startOffset="1884"
+            endLine="49"
+            endColumn="40"
+            endOffset="1907"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Show&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_login.xml"
+            line="63"
+            column="17"
+            startOffset="2510"
+            endLine="63"
+            endColumn="36"
+            endOffset="2529"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Forgot Password ?&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_login.xml"
+            line="80"
+            column="13"
+            startOffset="3235"
+            endLine="80"
+            endColumn="45"
+            endOffset="3267"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-attribute
+            description="Set contentDescription"
+            namespace="http://schemas.android.com/apk/res/android"
+            attribute="contentDescription"
+            value="TODO"
+            dot="4"
+            mark="0"/>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_splash_screen.xml"
+            line="10"
+            column="6"
+            startOffset="409"
+            endLine="10"
+            endColumn="15"
+            endOffset="418"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Know yourself\nLearn yourself&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_splash_screen.xml"
+            line="24"
+            column="9"
+            startOffset="919"
+            endLine="24"
+            endColumn="53"
+            endOffset="963"/>
+    </incident>
+
+    <incident
+        id="SpUsage"
+        severity="warning"
+        message="Should use &quot;`sp`&quot; instead of &quot;`dp`&quot; for text sizes">
+        <fix-replace
+            description="Replace with sp"
+            oldPattern=".*(di?p)"
+            replacement="sp"/>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_splash_screen.xml"
+            line="26"
+            column="9"
+            startOffset="1013"
+            endLine="26"
+            endColumn="32"
+            endOffset="1036"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Home&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/menu/home_menu.xml"
+            line="7"
+            column="9"
+            startOffset="206"
+            endLine="7"
+            endColumn="29"
+            endOffset="226"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Shoping&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/menu/home_menu.xml"
+            line="12"
+            column="9"
+            startOffset="342"
+            endLine="12"
+            endColumn="32"
+            endOffset="365"/>
+    </incident>
+
+    <incident
+        id="Typos"
+        severity="warning"
+        message="Did you mean &quot;DQEBBAUAMIGUMQswCQYDVQQGEwJVUzETMBEGA!&quot; instead of &quot;DQEBBAUAMIGUMQswCQYDVQQGEwJVUzETMBEGA1&quot;?">
+        <fix-replace
+            description="Replace with &quot;DQEBBAUAMIGUMQswCQYDVQQGEwJVUzETMBEGA!&quot;"
+            oldString="DQEBBAUAMIGUMQswCQYDVQQGEwJVUzETMBEGA1"
+            replacement="DQEBBAUAMIGUMQswCQYDVQQGEwJVUzETMBEGA!">
+            <range
+                file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+                startOffset="352"
+                endOffset="1948"/>
+        </fix-replace>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+            line="9"
+            column="57"
+            startOffset="396"
+            endLine="9"
+            endColumn="57"
+            endOffset="433"/>
+    </incident>
+
+    <incident
+        id="Typos"
+        severity="warning"
+        message="Did you mean &quot;pYTEWMBQGA!&quot; instead of &quot;pYTEWMBQGA1&quot;?">
+        <fix-replace
+            description="Replace with &quot;pYTEWMBQGA!&quot;"
+            oldString="pYTEWMBQGA1"
+            replacement="pYTEWMBQGA!">
+            <range
+                file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+                startOffset="352"
+                endOffset="1948"/>
+        </fix-replace>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+            line="9"
+            column="112"
+            startOffset="451"
+            endLine="9"
+            endColumn="112"
+            endOffset="461"/>
+    </incident>
+
+    <incident
+        id="Typos"
+        severity="warning"
+        message="Did you mean &quot;GA!&quot; instead of &quot;GA1&quot;?">
+        <fix-replace
+            description="Replace with &quot;GA!&quot;"
+            oldString="GA1"
+            replacement="GA!">
+            <range
+                file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+                startOffset="352"
+                endOffset="1948"/>
+        </fix-replace>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+            line="9"
+            column="152"
+            startOffset="491"
+            endLine="9"
+            endColumn="152"
+            endOffset="493"/>
+    </incident>
+
+    <incident
+        id="Typos"
+        severity="warning"
+        message="Did you mean &quot;GA!&quot; instead of &quot;GA1&quot;?">
+        <fix-replace
+            description="Replace with &quot;GA!&quot;"
+            oldString="GA1"
+            replacement="GA!">
+            <range
+                file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+                startOffset="352"
+                endOffset="1948"/>
+        </fix-replace>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+            line="9"
+            column="176"
+            startOffset="515"
+            endLine="9"
+            endColumn="176"
+            endOffset="517"/>
+    </incident>
+
+    <incident
+        id="Typos"
+        severity="warning"
+        message="Did you mean &quot;GA!&quot; instead of &quot;GA1&quot;?">
+        <fix-replace
+            description="Replace with &quot;GA!&quot;"
+            oldString="GA1"
+            replacement="GA!">
+            <range
+                file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+                startOffset="352"
+                endOffset="1948"/>
+        </fix-replace>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+            line="9"
+            column="200"
+            startOffset="539"
+            endLine="9"
+            endColumn="200"
+            endOffset="541"/>
+    </incident>
+
+    <incident
+        id="Typos"
+        severity="warning"
+        message="Did you mean &quot;NTZaMIGUMQswCQYDVQQGEwJVUzETMBEGA!&quot; instead of &quot;NTZaMIGUMQswCQYDVQQGEwJVUzETMBEGA1&quot;?">
+        <fix-replace
+            description="Replace with &quot;NTZaMIGUMQswCQYDVQQGEwJVUzETMBEGA!&quot;"
+            oldString="NTZaMIGUMQswCQYDVQQGEwJVUzETMBEGA1"
+            replacement="NTZaMIGUMQswCQYDVQQGEwJVUzETMBEGA!">
+            <range
+                file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+                startOffset="352"
+                endOffset="1948"/>
+        </fix-replace>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+            line="9"
+            column="305"
+            startOffset="644"
+            endLine="9"
+            endColumn="305"
+            endOffset="677"/>
+    </incident>
+
+    <incident
+        id="Typos"
+        severity="warning"
+        message="Did you mean &quot;pYTEWMBQGA!&quot; instead of &quot;pYTEWMBQGA1&quot;?">
+        <fix-replace
+            description="Replace with &quot;pYTEWMBQGA!&quot;"
+            oldString="pYTEWMBQGA1"
+            replacement="pYTEWMBQGA!">
+            <range
+                file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+                startOffset="352"
+                endOffset="1948"/>
+        </fix-replace>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+            line="9"
+            column="356"
+            startOffset="695"
+            endLine="9"
+            endColumn="356"
+            endOffset="705"/>
+    </incident>
+
+    <incident
+        id="Typos"
+        severity="warning"
+        message="Did you mean &quot;GA!&quot; instead of &quot;GA1&quot;?">
+        <fix-replace
+            description="Replace with &quot;GA!&quot;"
+            oldString="GA1"
+            replacement="GA!">
+            <range
+                file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+                startOffset="352"
+                endOffset="1948"/>
+        </fix-replace>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+            line="9"
+            column="396"
+            startOffset="735"
+            endLine="9"
+            endColumn="396"
+            endOffset="737"/>
+    </incident>
+
+    <incident
+        id="Typos"
+        severity="warning"
+        message="Did you mean &quot;GA!&quot; instead of &quot;GA1&quot;?">
+        <fix-replace
+            description="Replace with &quot;GA!&quot;"
+            oldString="GA1"
+            replacement="GA!">
+            <range
+                file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+                startOffset="352"
+                endOffset="1948"/>
+        </fix-replace>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+            line="9"
+            column="420"
+            startOffset="759"
+            endLine="9"
+            endColumn="420"
+            endOffset="761"/>
+    </incident>
+
+    <incident
+        id="Typos"
+        severity="warning"
+        message="Did you mean &quot;GA!&quot; instead of &quot;GA1&quot;?">
+        <fix-replace
+            description="Replace with &quot;GA!&quot;"
+            oldString="GA1"
+            replacement="GA!">
+            <range
+                file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+                startOffset="352"
+                endOffset="1948"/>
+        </fix-replace>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+            line="9"
+            column="444"
+            startOffset="783"
+            endLine="9"
+            endColumn="444"
+            endOffset="785"/>
+    </incident>
+
+    <incident
+        id="Typos"
+        severity="warning"
+        message="Did you mean &quot;hZeTfHwqNvacKhp!&quot; instead of &quot;hZeTfHwqNvacKhp1&quot;?">
+        <fix-replace
+            description="Replace with &quot;hZeTfHwqNvacKhp!&quot;"
+            oldString="hZeTfHwqNvacKhp1"
+            replacement="hZeTfHwqNvacKhp!">
+            <range
+                file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+                startOffset="352"
+                endOffset="1948"/>
+        </fix-replace>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+            line="9"
+            column="684"
+            startOffset="1023"
+            endLine="9"
+            endColumn="684"
+            endOffset="1038"/>
+    </incident>
+
+    <incident
+        id="Typos"
+        severity="warning"
+        message="Did you mean &quot;xT!&quot; instead of &quot;xT1&quot;?">
+        <fix-replace
+            description="Replace with &quot;xT!&quot;"
+            oldString="xT1"
+            replacement="xT!">
+            <range
+                file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+                startOffset="352"
+                endOffset="1948"/>
+        </fix-replace>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+            line="9"
+            column="803"
+            startOffset="1142"
+            endLine="9"
+            endColumn="803"
+            endOffset="1144"/>
+    </incident>
+
+    <incident
+        id="Typos"
+        severity="warning"
+        message="Did you mean &quot;CyoYGapIGXMIGUMQswCQYDVQQGEwJVUzETMBEGA!&quot; instead of &quot;CyoYGapIGXMIGUMQswCQYDVQQGEwJVUzETMBEGA1&quot;?">
+        <fix-replace
+            description="Replace with &quot;CyoYGapIGXMIGUMQswCQYDVQQGEwJVUzETMBEGA!&quot;"
+            oldString="CyoYGapIGXMIGUMQswCQYDVQQGEwJVUzETMBEGA1"
+            replacement="CyoYGapIGXMIGUMQswCQYDVQQGEwJVUzETMBEGA!">
+            <range
+                file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+                startOffset="352"
+                endOffset="1948"/>
+        </fix-replace>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+            line="9"
+            column="995"
+            startOffset="1334"
+            endLine="9"
+            endColumn="995"
+            endOffset="1373"/>
+    </incident>
+
+    <incident
+        id="Typos"
+        severity="warning"
+        message="Did you mean &quot;pYTEWMBQGA!&quot; instead of &quot;pYTEWMBQGA1&quot;?">
+        <fix-replace
+            description="Replace with &quot;pYTEWMBQGA!&quot;"
+            oldString="pYTEWMBQGA1"
+            replacement="pYTEWMBQGA!">
+            <range
+                file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+                startOffset="352"
+                endOffset="1948"/>
+        </fix-replace>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+            line="9"
+            column="1052"
+            startOffset="1391"
+            endLine="9"
+            endColumn="1052"
+            endOffset="1401"/>
+    </incident>
+
+    <incident
+        id="Typos"
+        severity="warning"
+        message="Did you mean &quot;GA!&quot; instead of &quot;GA1&quot;?">
+        <fix-replace
+            description="Replace with &quot;GA!&quot;"
+            oldString="GA1"
+            replacement="GA!">
+            <range
+                file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+                startOffset="352"
+                endOffset="1948"/>
+        </fix-replace>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+            line="9"
+            column="1092"
+            startOffset="1431"
+            endLine="9"
+            endColumn="1092"
+            endOffset="1433"/>
+    </incident>
+
+    <incident
+        id="Typos"
+        severity="warning"
+        message="Did you mean &quot;GA!&quot; instead of &quot;GA1&quot;?">
+        <fix-replace
+            description="Replace with &quot;GA!&quot;"
+            oldString="GA1"
+            replacement="GA!">
+            <range
+                file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+                startOffset="352"
+                endOffset="1948"/>
+        </fix-replace>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+            line="9"
+            column="1116"
+            startOffset="1455"
+            endLine="9"
+            endColumn="1116"
+            endOffset="1457"/>
+    </incident>
+
+    <incident
+        id="Typos"
+        severity="warning"
+        message="Did you mean &quot;GA!&quot; instead of &quot;GA1&quot;?">
+        <fix-replace
+            description="Replace with &quot;GA!&quot;"
+            oldString="GA1"
+            replacement="GA!">
+            <range
+                file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+                startOffset="352"
+                endOffset="1948"/>
+        </fix-replace>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+            line="9"
+            column="1140"
+            startOffset="1479"
+            endLine="9"
+            endColumn="1140"
+            endOffset="1481"/>
+    </incident>
+
+    <incident
+        id="Typos"
+        severity="warning"
+        message="Did you mean &quot;MAwGA!&quot; instead of &quot;MAwGA1&quot;?">
+        <fix-replace
+            description="Replace with &quot;MAwGA!&quot;"
+            oldString="MAwGA1"
+            replacement="MAwGA!">
+            <range
+                file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+                startOffset="352"
+                endOffset="1948"/>
+        </fix-replace>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+            line="9"
+            column="1221"
+            startOffset="1560"
+            endLine="9"
+            endColumn="1221"
+            endOffset="1565"/>
+    </incident>
+
+    <incident
+        id="Typos"
+        severity="warning"
+        message="Did you mean &quot;wNfdIjIz!&quot; instead of &quot;wNfdIjIz1&quot;?">
+        <fix-replace
+            description="Replace with &quot;wNfdIjIz!&quot;"
+            oldString="wNfdIjIz1"
+            replacement="wNfdIjIz!">
+            <range
+                file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+                startOffset="352"
+                endOffset="1948"/>
+        </fix-replace>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+            line="9"
+            column="1279"
+            startOffset="1618"
+            endLine="9"
+            endColumn="1279"
+            endOffset="1626"/>
+    </incident>
+
+    <incident
+        id="Typos"
+        severity="warning"
+        message="Did you mean &quot;mtKoOD!&quot; instead of &quot;mtKoOD1&quot;?">
+        <fix-replace
+            description="Replace with &quot;mtKoOD!&quot;"
+            oldString="mtKoOD1"
+            replacement="mtKoOD!">
+            <range
+                file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+                startOffset="352"
+                endOffset="1948"/>
+        </fix-replace>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+            line="9"
+            column="1326"
+            startOffset="1665"
+            endLine="9"
+            endColumn="1326"
+            endOffset="1671"/>
+    </incident>
+
+    <incident
+        id="Typos"
+        severity="warning"
+        message="Did you mean &quot;ybmlhMRYwFAYDVQQHEw!&quot; instead of &quot;ybmlhMRYwFAYDVQQHEw1&quot;?">
+        <fix-replace
+            description="Replace with &quot;ybmlhMRYwFAYDVQQHEw!&quot;"
+            oldString="ybmlhMRYwFAYDVQQHEw1"
+            replacement="ybmlhMRYwFAYDVQQHEw!">
+            <range
+                file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+                startOffset="2083"
+                endOffset="3543"/>
+        </fix-replace>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+            line="14"
+            column="108"
+            startOffset="2178"
+            endLine="14"
+            endColumn="108"
+            endOffset="2197"/>
+    </incident>
+
+    <incident
+        id="Typos"
+        severity="warning"
+        message="Did you mean &quot;GA!&quot; instead of &quot;GA1&quot;?">
+        <fix-replace
+            description="Replace with &quot;GA!&quot;"
+            oldString="GA1"
+            replacement="GA!">
+            <range
+                file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+                startOffset="2083"
+                endOffset="3543"/>
+        </fix-replace>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+            line="14"
+            column="180"
+            startOffset="2250"
+            endLine="14"
+            endColumn="180"
+            endOffset="2252"/>
+    </incident>
+
+    <incident
+        id="Typos"
+        severity="warning"
+        message="Did you mean &quot;GA!&quot; instead of &quot;GA1&quot;?">
+        <fix-replace
+            description="Replace with &quot;GA!&quot;"
+            oldString="GA1"
+            replacement="GA!">
+            <range
+                file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+                startOffset="2083"
+                endOffset="3543"/>
+        </fix-replace>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+            line="14"
+            column="204"
+            startOffset="2274"
+            endLine="14"
+            endColumn="204"
+            endOffset="2276"/>
+    </incident>
+
+    <incident
+        id="Typos"
+        severity="warning"
+        message="Did you mean &quot;ybmlhMRYwFAYDVQQHEw!&quot; instead of &quot;ybmlhMRYwFAYDVQQHEw1&quot;?">
+        <fix-replace
+            description="Replace with &quot;ybmlhMRYwFAYDVQQHEw!&quot;"
+            oldString="ybmlhMRYwFAYDVQQHEw1"
+            replacement="ybmlhMRYwFAYDVQQHEw!">
+            <range
+                file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+                startOffset="2083"
+                endOffset="3543"/>
+        </fix-replace>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+            line="14"
+            column="308"
+            startOffset="2378"
+            endLine="14"
+            endColumn="308"
+            endOffset="2397"/>
+    </incident>
+
+    <incident
+        id="Typos"
+        severity="warning"
+        message="Did you mean &quot;GA!&quot; instead of &quot;GA1&quot;?">
+        <fix-replace
+            description="Replace with &quot;GA!&quot;"
+            oldString="GA1"
+            replacement="GA!">
+            <range
+                file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+                startOffset="2083"
+                endOffset="3543"/>
+        </fix-replace>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+            line="14"
+            column="380"
+            startOffset="2450"
+            endLine="14"
+            endColumn="380"
+            endOffset="2452"/>
+    </incident>
+
+    <incident
+        id="Typos"
+        severity="warning"
+        message="Did you mean &quot;GA!&quot; instead of &quot;GA1&quot;?">
+        <fix-replace
+            description="Replace with &quot;GA!&quot;"
+            oldString="GA1"
+            replacement="GA!">
+            <range
+                file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+                startOffset="2083"
+                endOffset="3543"/>
+        </fix-replace>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+            line="14"
+            column="404"
+            startOffset="2474"
+            endLine="14"
+            endColumn="404"
+            endOffset="2476"/>
+    </incident>
+
+    <incident
+        id="Typos"
+        severity="warning"
+        message="Did you mean &quot;sypEwPpt!&quot; instead of &quot;sypEwPpt1&quot;?">
+        <fix-replace
+            description="Replace with &quot;sypEwPpt!&quot;"
+            oldString="sypEwPpt1"
+            replacement="sypEwPpt!">
+            <range
+                file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+                startOffset="2083"
+                endOffset="3543"/>
+        </fix-replace>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+            line="14"
+            column="498"
+            startOffset="2568"
+            endLine="14"
+            endColumn="498"
+            endOffset="2576"/>
+    </incident>
+
+    <incident
+        id="Typos"
+        severity="warning"
+        message="Did you mean &quot;idkyugwfYwXFU!&quot; instead of &quot;idkyugwfYwXFU1&quot;?">
+        <fix-replace
+            description="Replace with &quot;idkyugwfYwXFU!&quot;"
+            oldString="idkyugwfYwXFU1"
+            replacement="idkyugwfYwXFU!">
+            <range
+                file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+                startOffset="2083"
+                endOffset="3543"/>
+        </fix-replace>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+            line="14"
+            column="644"
+            startOffset="2714"
+            endLine="14"
+            endColumn="644"
+            endOffset="2727"/>
+    </incident>
+
+    <incident
+        id="Typos"
+        severity="warning"
+        message="Did you mean &quot;jMIhF!&quot; instead of &quot;jMIhF1&quot;?">
+        <fix-replace
+            description="Replace with &quot;jMIhF!&quot;"
+            oldString="jMIhF1"
+            replacement="jMIhF!">
+            <range
+                file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+                startOffset="2083"
+                endOffset="3543"/>
+        </fix-replace>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+            line="14"
+            column="837"
+            startOffset="2907"
+            endLine="14"
+            endColumn="837"
+            endOffset="2912"/>
+    </incident>
+
+    <incident
+        id="Typos"
+        severity="warning"
+        message="Did you mean &quot;jMIhF!&quot; instead of &quot;jMIhF1&quot;?">
+        <fix-replace
+            description="Replace with &quot;jMIhF!&quot;"
+            oldString="jMIhF1"
+            replacement="jMIhF!">
+            <range
+                file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+                startOffset="2083"
+                endOffset="3543"/>
+        </fix-replace>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+            line="14"
+            column="885"
+            startOffset="2955"
+            endLine="14"
+            endColumn="885"
+            endOffset="2960"/>
+    </incident>
+
+    <incident
+        id="Typos"
+        severity="warning"
+        message="Did you mean &quot;MQswCQYDVQQGEwJVUzETMBEGA!&quot; instead of &quot;MQswCQYDVQQGEwJVUzETMBEGA1&quot;?">
+        <fix-replace
+            description="Replace with &quot;MQswCQYDVQQGEwJVUzETMBEGA!&quot;"
+            oldString="MQswCQYDVQQGEwJVUzETMBEGA1"
+            replacement="MQswCQYDVQQGEwJVUzETMBEGA!">
+            <range
+                file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+                startOffset="2083"
+                endOffset="3543"/>
+        </fix-replace>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+            line="14"
+            column="917"
+            startOffset="2987"
+            endLine="14"
+            endColumn="917"
+            endOffset="3012"/>
+    </incident>
+
+    <incident
+        id="Typos"
+        severity="warning"
+        message="Did you mean &quot;pYTEWMBQGA!&quot; instead of &quot;pYTEWMBQGA1&quot;?">
+        <fix-replace
+            description="Replace with &quot;pYTEWMBQGA!&quot;"
+            oldString="pYTEWMBQGA1"
+            replacement="pYTEWMBQGA!">
+            <range
+                file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+                startOffset="2083"
+                endOffset="3543"/>
+        </fix-replace>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+            line="14"
+            column="960"
+            startOffset="3030"
+            endLine="14"
+            endColumn="960"
+            endOffset="3040"/>
+    </incident>
+
+    <incident
+        id="Typos"
+        severity="warning"
+        message="Did you mean &quot;gVmlldzEUMBIGA!&quot; instead of &quot;gVmlldzEUMBIGA1&quot;?">
+        <fix-replace
+            description="Replace with &quot;gVmlldzEUMBIGA!&quot;"
+            oldString="gVmlldzEUMBIGA1"
+            replacement="gVmlldzEUMBIGA!">
+            <range
+                file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+                startOffset="2083"
+                endOffset="3543"/>
+        </fix-replace>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+            line="14"
+            column="988"
+            startOffset="3058"
+            endLine="14"
+            endColumn="988"
+            endOffset="3072"/>
+    </incident>
+
+    <incident
+        id="Typos"
+        severity="warning"
+        message="Did you mean &quot;iZBqpknHf!&quot; instead of &quot;iZBqpknHf1&quot;?">
+        <fix-replace
+            description="Replace with &quot;iZBqpknHf!&quot;"
+            oldString="iZBqpknHf1"
+            replacement="iZBqpknHf!">
+            <range
+                file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+                startOffset="2083"
+                endOffset="3543"/>
+        </fix-replace>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+            line="14"
+            column="1294"
+            startOffset="3364"
+            endLine="14"
+            endColumn="1294"
+            endOffset="3373"/>
+    </incident>
+
+    <incident
+        id="Typos"
+        severity="warning"
+        message="Did you mean &quot;XFI!&quot; instead of &quot;XFI1&quot;?">
+        <fix-replace
+            description="Replace with &quot;XFI!&quot;"
+            oldString="XFI1"
+            replacement="XFI!">
+            <range
+                file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+                startOffset="2083"
+                endOffset="3543"/>
+        </fix-replace>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/values/font_certs.xml"
+            line="14"
+            column="1337"
+            startOffset="3407"
+            endLine="14"
+            endColumn="1337"
+            endOffset="3410"/>
+    </incident>
+
+    <incident
+        id="OldTargetApi"
+        severity="warning"
+        message="Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details.">
+        <fix-replace
+            description="Update targetSdkVersion to 33"
+            oldString="32"
+            replacement="33"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="12"
+            column="9"
+            startOffset="203"
+            endLine="12"
+            endColumn="21"
+            endOffset="215"/>
+    </incident>
+
+    <incident
+        id="Overdraw"
+        severity="warning"
+        message="Possible overdraw: Root element paints background `@color/splash_screen_bg` with a theme that also paints a background (inferred theme is `@style/Theme.Cure`)">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_splash_screen.xml"
+            line="7"
+            column="5"
+            startOffset="306"
+            endLine="7"
+            endColumn="49"
+            endOffset="350"/>
+    </incident>
+
+</incidents>

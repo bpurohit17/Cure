@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "907524275677",
+    "firebase_url": "https://cure-9ba45-default-rtdb.firebaseio.com",
+    "project_id": "cure-9ba45",
+    "storage_bucket": "cure-9ba45.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:907524275677:android:b27b38a468c5daf78aca34",
+        "android_client_info": {
+          "package_name": "com.bhagyashriP.cure"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "907524275677-b9ar46dhp1nmncrvknr9eesu4tdim2o2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bhagyashriP.cure",
+            "certificate_hash": "74527de3007d1fb145b9ac7ad96244cfb8b7b27f"
+          }
+        },
+        {
+          "client_id": "907524275677-h51i02egmn8hrg0r3q8qfdq8rse1eekl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBi8CixpVns9xhaC8Ud1s7ak57ObO6g42g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "907524275677-h51i02egmn8hrg0r3q8qfdq8rse1eekl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
