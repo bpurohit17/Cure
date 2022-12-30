@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".activity.SignupActivity">
+
+    <ProgressBar
+        android:id="@+id/signup_progress"
+        style="?android:attr/progressBarStyleLarge"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/login_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="2"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="@string/sign_up"
+                android:layout_marginHorizontal="20dp"
+                android:textColor="@color/black"
+                android:textSize="24sp" />
+
+            <!--username-->
+            <AutoCompleteTextView
+                android:id="@+id/edtUserName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/poppins"
+                android:layout_marginHorizontal="20dp"
+                android:background="@drawable/edittext_style"
+                android:hint="@string/user_name"
+                android:padding="20dp"
+                android:textSize="13sp"
+                android:inputType="text"
+                android:maxLines="1"/>
+
+            <!--Full name-->
+            <AutoCompleteTextView
+                android:id="@+id/edtFullName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/poppins"
+                android:layout_marginHorizontal="20dp"
+                android:background="@drawable/edittext_style"
+                android:hint="@string/full_name"
+                android:padding="20dp"
+                android:textSize="13sp"
+                android:inputType="text"
+                android:maxLines="1"/>
+
+            <!--email-->
+            <AutoCompleteTextView
+                android:id="@+id/edtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/poppins"
+                android:layout_marginHorizontal="20dp"
+                android:background="@drawable/edittext_style"
+                android:hint="@string/email"
+                android:padding="20dp"
+                android:textSize="13sp"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"/>
+
+            <!--password-->
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="8dp">
+
+                <EditText
+                    android:id="@+id/edtPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edittext_style"
+                    android:fontFamily="@font/poppins"
+                    android:hint="@string/password"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:padding="20dp"
+                    android:textSize="13sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="20dp"
+                    android:text="@string/show_btn"
+                    android:fontFamily="@font/poppins_bold"
+                    android:textSize="11sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.488" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+<!--            user name-->
+
+<!--            phone-->
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="18dp"-->
+<!--                android:fontFamily="@font/poppins"-->
+<!--                android:background="@drawable/edittext_style"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                <com.hbb20.CountryCodePicker-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:layout_marginStart="5dp"-->
+<!--                    app:ccp_autoDetectCountry="true"-->
+<!--                    app:ccp_autoFormatNumber="true"-->
+<!--                    app:ccp_countryPreference="IN"-->
+<!--                    app:ccp_showFlag="false"-->
+<!--                    app:ccp_showNameCode="false"-->
+<!--                    app:ccp_textSize="13sp" />-->
+
+<!--                <View-->
+<!--                    android:layout_width="1dp"-->
+<!--                    android:layout_height="20dp"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:background="#E0E0E0" />-->
+
+<!--                <EditText-->
+<!--                    android:id="@+id/edtPhone"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:background="@null"-->
+<!--                    android:hint="@string/phone_number"-->
+<!--                    android:inputType="phone"-->
+<!--                    android:padding="20dp"-->
+<!--                    android:singleLine="true"-->
+<!--                    android:textSize="13sp" />-->
+
+<!--            </LinearLayout>-->
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnSignUp"
+                android:layout_width="match_parent"
+                android:layout_height="67dp"
+                android:layout_gravity="bottom"
+                android:background="@drawable/button_style"
+                android:fontFamily="@font/poppins_extrabold"
+                android:padding="15dp"
+                android:layout_marginTop="40dp"
+                android:text="@string/sign_up"
+                android:layout_marginHorizontal="20dp"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:layout_marginHorizontal="20dp"
+                android:layout_gravity="center_horizontal"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="470dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="0.5"
+                    android:fontFamily="@font/poppins_light"
+                    android:gravity="right"
+                    android:text="@string/signin_accoubt_string"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/loginRedirectText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="@string/login_string"
+                    android:textSize="13sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
